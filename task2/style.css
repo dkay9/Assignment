@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Work+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+body{
+    background-image: url('download.jfif') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 10px;
+}
+.reg_page{
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #000;
+    opacity: .8;
+    padding: 30px;
+    color: #fff;
+}
+.loginWrapper .form2 label{
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.form2{
+    width: 100%;
+} 
+.loginWrapper .form2 .input_field{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+.reg_page .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.reg_page .form{
+    width: 100%;
+}
+.reg_page .form .input_field{
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+.reg_link{
+    text-decoration: none;
+    color: blue;
+}
+.reg_page .form .input_field label{
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.input{
+    width: 100%;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+.customSelect{
+    position: relative;
+    width: 100%;
+    height: 37px;
+    padding: 8px 10px;
+}
+.favColor label{
+    width: 200px;
+    margin-right: 35px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.btn{
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 0;
+    color: #000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.btn_link{
+    width: 100%;
+}
+.loginWrapper{
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #000;
+    opacity: .8;
+    padding: 30px;
+    color: #fff;
+}
+.login{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.success_container{
+    font-size: 30px;
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+    background-color: #000;
+    opacity: .8;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+}
